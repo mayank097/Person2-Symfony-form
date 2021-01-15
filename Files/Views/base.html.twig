@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <h1> This is heading</h1>
+    </head>
+    <body>
+    	<div class="container">
+    			<h2> Nav bar</h2>
+        		{% block body %}{% endblock %}
+        		{% block javascripts %}{% endblock %}
+    	</div>
+    </body>
+</html>
